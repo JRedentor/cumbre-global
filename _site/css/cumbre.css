@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+body { background: #000; font-size:18px;}
+* { margin:0; color:#3f3f3f; font-family:"Poppins", tahoma,calibri, sans-serif;}
+div.responsive img  { height:auto; max-width:100%;}
+.container.main { background:#f6f6f6;}
+a { color:#00cc99;}
+.seccion { margin:80px 0;}
+.container { padding:0;}
+#top { height:0px;}
+#cabecera { margin:0; padding:0 170px; background:#0C9; background:#3f3f3f;}
+
+/*PORTADA*/
+#portada { margin:0; padding-bottom:30px; background:url(../img/foto-xxx.jpg) no-repeat bottom center; 
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;}
+#portada * { color:#FFF !important;}
+#portada p { font-size:20px}
+#portada p strong { font-size:21px;}
+.logo-cumbre img { float:left; margin-right:10px;}
+.logo-cumbre h2 { margin:0 0 75px 0; font-size:25px; line-height:26px;}
+.logo-cumbre span	{ display:block; position:relative; top:1px;}
+.logo-cumbre .bold  { font-weight:700;}
+.logo-cumbre .light { font-weight:300;}
+
+.openess 	 { padding:0 15px;}
+.openess div { padding:0;}
+.openess div div:first-child { margin-bottom:30px;}
+.openess p { margin: 0 0 4px;}
+.openess div div:last-child p { margin-bottom:-1px; }
+.openess button { background:#3f3f3f; border:none; padding:13px 30px; margin-bottom:10px;}
+.openess button:active { background:#ccc;}
+
+/*NAV BAR*/
+.navbar { min-height:37px; background:#3f3f3f; border-radius:0; margin-bottom:0; border:none;}
+.navbar-nav { float:right; margin:4px -15px 0px;}
+.navbar-nav > li > a { padding:8px 10px 5px; text-transform:uppercase;font-size:12px; font-weight:300;}
+.navbar-header img { margin-left:15px; position:absolute;}
+.navbar a { color:#FFF !important; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .activeU > a,
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .activeU > a:hover,
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .activeU > a:focus { background-color:transparent;color:#0CC581 !important;}
+.activeU { border-bottom:4px solid #0CC581;}
+.navbar-default .navbar-toggle .icon-bar { background:#FFF;}
+.navbar-default .navbar-toggle 			 { border-color:#FFF;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:#00e4b6}
+.nav.navbar-nav img { position:relative; top:-2px;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form { border:none;}
+
+/*CUERPO*/
+.cuerpo { padding:0 170px;}
+h2 { margin:0 0 65px 0; font-weight:bold;}
+p { font-size:18px; margin-bottom:30px;}
+
+.twt h2			{ font-weight:normal;}
+.twt > div 		{ background:#FFF; padding:20px 15px; }
+.twt > div p 	{ font-size:11px; margin:0;}
+.twt .glyphicon { color:#00cc99; font-size:9px; margin-bottom:13px;}
+
+.secc-expect h3 { text-transform:uppercase; color:#FFF; font-size:30px; font-weight:bold; margin:0; margin-top:133px;}
+.secc-expect .recuadros { padding:0 15px;}
+.wpart, .wpane, .wkey, .wwork, .wexhi, .wawar, .fig2 { text-align:center; height:305px; padding:0;}
+
+.wpart 	{ background:#ff9900 no-repeat center url(../img/grafico-participants.png);}
+.wpane 	{ background:#ff4951 no-repeat center url(../img/grafico-panels.png);}
+.wkey	{ background:#00cc99 no-repeat center url(../img/grafico-keynote.png);}
+.wwork	{ background:#343575 no-repeat center url(../img/grafico-work.png);}
+.wexhi	{ background:#4777be no-repeat center url(../img/grafico-exhibit.png)}
+.wawar	{ background:#ff8b2d no-repeat center url(../img/grafico-awards.png);}
+
+.wpart .tit, .wpart .glyphicon	{ color:#ff9900;}
+.wpane .tit, .wpane .glyphicon	{ color:#ff4951;}
+.wkey .tit, .wkey .glyphicon	{ color:#00cc99;}
+.wwork .tit, .wwork .glyphicon	{ color:#343575;}
+.wexhi .tit, .wexhi .glyphicon	{ color:#4777be;}
+.wawar .tit, .wawar .glyphicon	{ color:#ff8b2d;}
+
+.fig2			 { display:none; background:#FFF; text-align:left; padding:20px;}
+.fig2 p			 { margin:0;}
+.fig2 .glyphicon { }
+.fig:hover .fig1 { display:none;}
+.fig:hover .fig2 { display:block;}
+
+.secc-quest h2, .secc-quest a { color:#ff4951; font-weight:bold;}
+.secc-quest p { margin-bottom:5px;}
+
+.secc-about2 { margin-top:135px;}
+.secc-about2 .grafico { text-align:right;}
+
+/*COLORES*/
+#colores { background:url(../img/fondo-pie.gif); height:5px; margin:0; padding:0;}
+
+/*PIE*/
+#pie		{ padding:95px 0 50px; background:#333;  text-align:center;}
+#pie div a 	{ display:inline-block;}
+#pie p		{ color:#00cc99;font-size:13px; margin:80px 0 0 0; clear:both; }
+#pie p a	{ color:#eee; text-decoration:none; padding:10px}
+
+
+
+/*ESPECIFICOS*/
+
+/*Escritorio grande*/
+@media (min-width: 1200px){ #top {background-color:red !important;}
+	#portada { height:580px;}
+	#portada > div { padding: 6.6% 13.4% 0 14.6%;}
+	.pie1 a { margin:32px 40px;}
+	.pie2 a { margin:32px 15px;}
+	.pie3 a { margin:32px 40px;}
+}
+
+/* Escritorio pequeño o tablet */
+@media (min-width:992px) and (max-width:1199px){ #top {background-color:green !important;}
+	.cuerpo, #cabecera { padding:0 40px;}
+	#portada > div { padding: 6.6% 4.2% 0 5.6%;}
+	.pie1 a { margin:32px 30px;}
+	.pie2 a { margin:32px 10px;}
+	.pie3 a { margin:32px 30px;}
+}
+
+/* Tablet o smartphone */
+@media (min-width:768px) and (max-width:991px){ #top {background-color:blue !important;}
+	.cuerpo, #cabecera { padding:0 10px;}
+	#portada > div { padding: 6.6% 1.2% 0 3.3%;}
+	.grafico { padding:0;}
+	.pie1 a { margin:25px 5px;}
+	.pie2 a { margin:25px -12px;}
+	.pie3 a { margin:25px 5px;}
+}
+
+/* Smartphone */
+@media (max-width:767px){ #top {background-color:yellow !important;}
+	.cuerpo, #cabecera { padding:0;}
+	.twt    { margin-top:40px;}
+	.secc-expect h3 { font-size:20px;}
+	.navbar-nav { margin-top:25px;}
+	.nav > li { float:left;}
+	.navbar-nav > li > a { padding:8px 15px 8px 3px;}
+	
+	#portada > div { padding:40px 3% 0 15px;}
+	.openess > div + div { margin-top:30px;}
+	.secc-about2 { margin-top:70px; margin-bottom:30px;}
+	.secc-about2 .about { padding-right:5px }
+	h2 { margin: 0 0 35px}
+	#pie { padding: 15px 0 20px;}
+	#pie div a { display:block; float:left; margin:10px 13px; width:16%}
+	#pie img {}
