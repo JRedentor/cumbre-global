@@ -2,9 +2,12 @@
 
 body { background: #000; font-size:18px;}
 * { margin:0; color:#3f3f3f; font-family:"Poppins", tahoma,calibri, sans-serif;}
+button { background:#3f3f3f; border:none; padding:13px 30px; margin-bottom:10px; color:#FFF;}
+button:active { background:#ccc;}
 div.responsive img  { height:auto; max-width:100%;}
 .container.main { background:#f6f6f6;}
 a { color:#00cc99;}
+a:hover { color:#00cc99;}
 .seccion { margin:80px 0;}
 .container { padding:0;}
 #top { height:0px;}
@@ -30,24 +33,24 @@ background-size:cover;}
 .openess div div:first-child { margin-bottom:30px;}
 .openess p { margin: 0 0 4px;}
 .openess div div:last-child p { margin-bottom:-1px; }
-.openess button { background:#3f3f3f; border:none; padding:13px 30px; margin-bottom:10px;}
-.openess button:active { background:#ccc;}
+button { background:#3f3f3f; border:none; padding:13px 30px; margin-bottom:10px;}
 
 /*NAV BAR*/
 .navbar { min-height:37px; background:#3f3f3f; border-radius:0; margin-bottom:0; border:none;}
 .navbar-nav { float:right; margin:4px -15px 0px;}
 .navbar-nav > li > a { padding:8px 10px 5px; text-transform:uppercase;font-size:12px; font-weight:300;}
-.navbar-header img { margin-left:15px; position:absolute;}
+.navbar-header img { margin-left:15px; position:absolute; z-index:1000;}
 .navbar a { color:#FFF !important; }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .activeU > a,
 .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .activeU > a:hover,
-.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .activeU > a:focus { background-color:transparent;color:#0CC581 !important;}
-.activeU { border-bottom:4px solid #0CC581;}
+.navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .activeU > a:focus { background-color:transparent;color:#00CC99 !important;}
+.activeU { border-bottom:4px solid #00CC99;}
 .navbar-default .navbar-toggle .icon-bar { background:#FFF;}
 .navbar-default .navbar-toggle 			 { border-color:#FFF;}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:#00e4b6}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:#00CC99;}
 .nav.navbar-nav img { position:relative; top:-2px;}
-.navbar-default .navbar-collapse, .navbar-default .navbar-form { border:none;}
+.navbar-default .navbar-collapse { border-top:1px solid #303030;}
+
 
 /*CUERPO*/
 .cuerpo { padding:0 170px;}
@@ -98,7 +101,33 @@ p { font-size:18px; margin-bottom:30px;}
 #pie p		{ color:#00cc99;font-size:13px; margin:80px 0 0 0; clear:both; }
 #pie p a	{ color:#eee; text-decoration:none; padding:10px}
 
+/*CONVOCATORIA*/
+.convocatoria		 { }
+.secc-convoca 		 { margin-top:100px;}
+.conv-resumen 		 { background:#FFF; padding:20px;}
+.conv-resumen strong { display:block; }
+.conv-resumen p		 { margin-bottom:20px;}
+.conv-temas h2, 
+.conv-req h2		 { margin-bottom:25px; font-size:25px;}
+.conv-temas ul, 
+.conv-req ul		 { padding-left:20px}
+.conv-temas li, 
+.conv-req li		 { margin-bottom:10px}
 
+.seccion.timeline				{ margin-top:60px;}
+.timeline						{ text-align:center;}
+.timeline h2					{ text-align:left; margin-bottom:25px}
+.timeline div div				{ padding:20px 5px; border:solid 1px #F6F6F6;}
+.timeline div div p				{ color:#FFF;}
+.timeline div div p:first-child { margin-bottom:0; min-height:55px; padding-bottom:15px; } 
+.timeline div div p:last-child 	{ font-weight:bold; margin-bottom:0;} 
+.time1							{ background:#FF9B00 url(../img/grafico-participants.png)}
+.time2							{ background:#FF4853 url(../img/grafico-panels.png)}
+.time3							{ background:#00CD97 url(../img/grafico-keynote.png)}
+.time4							{ background:#343575 url(../img/grafico-work.png)}
+.time5							{ background:#1977C2 url(../img/grafico-exhibit.png)}
+.time6							{ background:#FF8B2D url(../img/grafico-awards.png)}
+.time1, .time2, .time3, .time4, .time5, .time6 { background-size:90px; background-position:center; background-repeat:no-repeat;}
 
 /*ESPECIFICOS*/
 
@@ -128,6 +157,14 @@ p { font-size:18px; margin-bottom:30px;}
 	.pie1 a { margin:25px 5px;}
 	.pie2 a { margin:25px -12px;}
 	.pie3 a { margin:25px 5px;}
+	
+	.convocatoria		{ margin-bottom:0px; }
+	.seccion.timeline	{ margin-top:40px; margin-bottom:0;}
+	.timeline div div	{ padding:30px 15px; border:none;}
+	.time1, .time2, .time3, .time4, .time5, .time6 { background-size:70px; background-position:10px center;  margin:8px 0;}
+	.timeline div div p:first-child { padding:0 0 0 20px; display:block; float:right; margin-bottom:0; min-height:10%; text-align:left !important; width:65%;} 
+	.timeline div div p:last-child 	{ float:right; font-weight:bold;} 
+	.temreq	{ margin-top:40px;}
 }
 
 /* Smartphone */
@@ -137,7 +174,8 @@ p { font-size:18px; margin-bottom:30px;}
 	.secc-expect h3 { font-size:20px;}
 	.navbar-nav { margin-top:25px;}
 	.nav > li { float:left;}
-	.navbar-nav > li > a { padding:8px 15px 8px 3px;}
+	.navbar-nav > li > a { padding:8px 6px;}
+	.seccion { margin:14% 0;}
 	
 	#portada > div { padding:40px 3% 0 15px;}
 	.openess > div + div { margin-top:30px;}
@@ -147,3 +185,16 @@ p { font-size:18px; margin-bottom:30px;}
 	#pie { padding: 15px 0 20px;}
 	#pie div a { display:block; float:left; margin:10px 13px; width:16%}
 	#pie img {}
+	
+	.secc-convoca 		{ margin:13% 0 10%;}
+	.conv-req 			{ margin-top:40px;}	
+	.conv-resumen		{ margin:0 13px; width:94%;}
+	.convocatoria		{ margin-bottom:0px; }
+	.seccion.timeline	{ margin-top:40px; margin-bottom:0;}
+	.seccion.timeline h2{ margin-bottom:0;}
+	.timeline div div	{ padding:10px 15px; border:none;}
+	.time1, .time2, .time3, .time4, .time5, .time6 { background-size:45px; background-position:10px center; margin:8px 0; text-align:left;}
+	.timeline div div p					{ padding:0px 0px 0px 50px !important; margin:0;}
+	.timeline div div p:first-child    	{ min-height:20px;} 
+	.timeline div div p:last-child 		{ font-weight:bold;} 
+	.temreq	{ margin-top:20px;}
