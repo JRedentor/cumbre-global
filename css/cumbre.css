@@ -104,7 +104,7 @@ p { font-size:18px; margin-bottom:30px;}
 /*CONVOCATORIA*/
 .convocatoria		 { }
 .secc-convoca 		 { margin-top:100px;}
-.conv-resumen 		 { background:#FFF; padding:20px;}
+.conv-resumen 		 { background:#FFF; padding:20px; margin-top:100px;}
 .conv-resumen strong { display:block; }
 .conv-resumen p		 { margin-bottom:20px;}
 .conv-temas h2, 
@@ -112,7 +112,7 @@ p { font-size:18px; margin-bottom:30px;}
 .conv-temas ul, 
 .conv-req ul		 { padding-left:20px}
 .conv-temas li, 
-.conv-req li		 { margin-bottom:10px}
+.conv-req li		 { margin-bottom:5px}
 
 .seccion.timeline				{ margin-top:60px;}
 .timeline						{ text-align:center;}
@@ -128,6 +128,7 @@ p { font-size:18px; margin-bottom:30px;}
 .time5							{ background:#1977C2 url(../img/grafico-exhibit.png)}
 .time6							{ background:#FF8B2D url(../img/grafico-awards.png)}
 .time1, .time2, .time3, .time4, .time5, .time6 { background-size:90px; background-position:center; background-repeat:no-repeat;}
+.timeline > p					{ text-align:left; padding-left:10px;}
 
 /*ESPECIFICOS*/
 
@@ -164,6 +165,7 @@ p { font-size:18px; margin-bottom:30px;}
 	.time1, .time2, .time3, .time4, .time5, .time6 { background-size:70px; background-position:10px center;  margin:8px 0;}
 	.timeline div div p:first-child { padding:0 0 0 20px; display:block; float:right; margin-bottom:0; min-height:10%; text-align:left !important; width:65%;} 
 	.timeline div div p:last-child 	{ float:right; font-weight:bold;} 
+	.timeline > p					{ padding-left:20px;}
 	.temreq	{ margin-top:40px;}
 }
 
@@ -196,5 +198,6 @@ p { font-size:18px; margin-bottom:30px;}
 	.time1, .time2, .time3, .time4, .time5, .time6 { background-size:45px; background-position:10px center; margin:8px 0; text-align:left;}
 	.timeline div div p					{ padding:0px 0px 0px 50px !important; margin:0;}
 	.timeline div div p:first-child    	{ min-height:20px;} 
-	.timeline div div p:last-child 		{ font-weight:bold;} 
+	.timeline div div p:last-child 		{ font-weight:bold;}
+	.timeline > p					{ padding-left:20px;} 
 	.temreq	{ margin-top:20px;}
