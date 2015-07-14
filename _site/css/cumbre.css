@@ -9,7 +9,7 @@ div.responsive img  { height:auto; max-width:100%;}
 a { color:#00cc99;}
 a:hover { color:#00cc99;}
 .seccion { margin:80px 0;}
-.container { padding:0;}
+.container { padding:0; width: 100%;}
 #top { height:0px;}
 #cabecera { margin:0; padding:0 170px; background:#0C9; background:#3f3f3f;}
 
