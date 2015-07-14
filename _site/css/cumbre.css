@@ -14,7 +14,7 @@ a:hover { color:#00cc99;}
 #cabecera { margin:0; padding:0 170px; background:#0C9; background:#3f3f3f;}
 
 /*PORTADA*/
-#portada { margin:0; padding-bottom:30px; background:url(../img/foto-xxx.jpg) no-repeat bottom center; 
+#portada { margin:0; padding-bottom:30px; background:url(../img/textura.png) no-repeat bottom center; 
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
