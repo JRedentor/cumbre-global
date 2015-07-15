@@ -10,7 +10,7 @@ a { color:#00cc99;}
 a:hover { color:#00cc99;}
 .seccion { margin:80px 0;}
 .container { padding:0; width: 100%;}
-#top { height:10px;}
+#top { height:0px;}
 #cabecera { margin:0; padding:0 170px; background:#0C9; background:#3f3f3f;}
 
 /*PORTADA*/
@@ -140,7 +140,7 @@ p { font-size:18px; margin-bottom:30px;}
 	#portada > div { padding: 6.6% 13.4% 0 14.6%;}
 	.pie1 a { margin:32px 40px;}
 	.pie2 a { margin:32px 15px;}
-	.pie3 a { margin:32px 13px;}
+	.pie3 a { margin:32px 40px;}
 	.fixed-height {height: 132px;}
 }
 
@@ -150,7 +150,7 @@ p { font-size:18px; margin-bottom:30px;}
 	#portada > div { padding: 6.6% 4.2% 0 5.6%;}
 	.pie1 a { margin:32px 30px;}
 	.pie2 a { margin:32px 10px;}
-	.pie3 a { margin:32px 10px;}
+	.pie3 a { margin:32px 30px;}
 	.fixed-height {height: 132px;}
 }
 
@@ -161,7 +161,7 @@ p { font-size:18px; margin-bottom:30px;}
 	.grafico { padding:0;}
 	.pie1 a { margin:25px 5px;}
 	.pie2 a { margin:25px -12px;}
-	.pie3 a { margin:25px 0px;}
+	.pie3 a { margin:25px 5px;}
 	
 	.convocatoria		{ margin-bottom:0px; }
 	.seccion.timeline	{ margin-top:40px; margin-bottom:0;}
@@ -170,7 +170,7 @@ p { font-size:18px; margin-bottom:30px;}
 	.timeline div div p:first-child { padding:0 0 0 20px; display:block; float:right; margin-bottom:0; min-height:10%; text-align:left !important; width:65%;} 
 	.timeline div div p:last-child 	{ float:right; font-weight:bold;} 
 	.timeline > p					{ padding-left:20px;}
-	.temreq	{ margin-top:40px;}
+	.temreq	{ margin-top:20px;}
 }
 
 /* Smartphone */
