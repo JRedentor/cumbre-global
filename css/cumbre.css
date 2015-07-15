@@ -10,7 +10,7 @@ a { color:#00cc99;}
 a:hover { color:#00cc99;}
 .seccion { margin:80px 0;}
 .container { padding:0; width: 100%;}
-#top { height:0px;}
+#top { height:10px;}
 #cabecera { margin:0; padding:0 170px; background:#0C9; background:#3f3f3f;}
 
 /*PORTADA*/
@@ -107,12 +107,14 @@ p { font-size:18px; margin-bottom:30px;}
 .conv-resumen 		 { background:#FFF; padding:20px; margin-top:100px;}
 .conv-resumen strong { display:block; }
 .conv-resumen p		 { margin-bottom:20px;}
+.conv-resumen img	 { margin:5px 5px 5px 0;}
 .conv-temas h2, 
 .conv-req h2		 { margin-bottom:25px; font-size:25px;}
 .conv-temas ul, 
 .conv-req ul		 { padding-left:20px}
 .conv-temas li, 
 .conv-req li		 { margin-bottom:5px}
+.cont-em			 { letter-spacing:-1px;}
 
 .seccion.timeline				{ margin-top:60px;}
 .timeline						{ text-align:center;}
@@ -138,7 +140,8 @@ p { font-size:18px; margin-bottom:30px;}
 	#portada > div { padding: 6.6% 13.4% 0 14.6%;}
 	.pie1 a { margin:32px 40px;}
 	.pie2 a { margin:32px 15px;}
-	.pie3 a { margin:32px 40px;}
+	.pie3 a { margin:32px 13px;}
+	.fixed-height {height: 132px;}
 }
 
 /* Escritorio pequeño o tablet */
@@ -147,7 +150,8 @@ p { font-size:18px; margin-bottom:30px;}
 	#portada > div { padding: 6.6% 4.2% 0 5.6%;}
 	.pie1 a { margin:32px 30px;}
 	.pie2 a { margin:32px 10px;}
-	.pie3 a { margin:32px 30px;}
+	.pie3 a { margin:32px 10px;}
+	.fixed-height {height: 132px;}
 }
 
 /* Tablet o smartphone */
@@ -157,7 +161,7 @@ p { font-size:18px; margin-bottom:30px;}
 	.grafico { padding:0;}
 	.pie1 a { margin:25px 5px;}
 	.pie2 a { margin:25px -12px;}
-	.pie3 a { margin:25px 5px;}
+	.pie3 a { margin:25px 0px;}
 	
 	.convocatoria		{ margin-bottom:0px; }
 	.seccion.timeline	{ margin-top:40px; margin-bottom:0;}
@@ -201,3 +205,4 @@ p { font-size:18px; margin-bottom:30px;}
 	.timeline div div p:last-child 		{ font-weight:bold;}
 	.timeline > p					{ padding-left:20px;} 
 	.temreq	{ margin-top:20px;}
+	
