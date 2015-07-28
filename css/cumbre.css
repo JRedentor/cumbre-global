@@ -8,7 +8,7 @@ div.responsive img  { height:auto; max-width:100%;}
 .container.main { background:#f6f6f6;}
 a { color:#00cc99;}
 a:hover { color:#00cc99;}
-.seccion { margin:80px 0;}
+.seccion { margin:40px 0;}
 .container { padding:0; width: 100%;}
 #top { height:0px;}
 #cabecera { margin:0; padding:0 170px; background:#0C9; background:#3f3f3f;}
@@ -104,7 +104,7 @@ p { font-size:18px; margin-bottom:30px;}
 /*CONVOCATORIA*/
 .convocatoria		 { }
 .secc-convoca 		 { margin-top:100px;}
-.conv-resumen 		 { background:#FFF; padding:20px; margin-top:100px;}
+.conv-resumen 		 { background:#FFF; padding:20px; margin-top:0px;}
 .conv-resumen strong { display:block; }
 .conv-resumen p		 { margin-bottom:20px;}
 .conv-resumen img	 { margin:5px 5px 5px 0;}
@@ -116,7 +116,7 @@ p { font-size:18px; margin-bottom:30px;}
 .conv-req li		 { margin-bottom:5px}
 .cont-em			 { letter-spacing:-1px;}
 
-.seccion.timeline				{ margin-top:60px;}
+.seccion.timeline				{ margin-top:40px;}
 .timeline						{ text-align:center;}
 .timeline h2					{ text-align:left; margin-bottom:25px}
 .timeline div div				{ padding:20px 5px; border:solid 1px #F6F6F6;}
